@@ -1,0 +1,14 @@
+{
+    "name": "myproject/mysdk",
+    "description": "Package generated from http://horusws.treinamento.saude.gov.br/horus-ws-service/HorusWSService/HorusWS?wsdl using wsdltophp/packagegenerator",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-soap": "*",
+        "wsdltophp/packagebase": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HorusWSDL\\Homologacao\\": "./src\\"
+        }
+    }
+}
